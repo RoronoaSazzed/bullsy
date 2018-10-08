@@ -10,8 +10,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Oswald', sans-serif;
-    color: #273b6d;
     line-height: 1.5;
     text-transform: capitalize;
 }
@@ -53,7 +51,6 @@ h6 {
 }
 
 p {
-    font-family: 'Lora', serif;
     line-height: 2;
     font-size: 16px;
     color: #747474;
