@@ -16,6 +16,7 @@ h4,
 h5,
 h6 {
     font-family: 'Ropa Sans', sans-serif;
+    color: #363636;
     line-height: 1.5;
     text-transform: capitalize;
 }
@@ -65,7 +66,7 @@ p {
 }
 
 
-.divTwo, .divThree, .divFour, .divFive, .divSix, .divSeven, .divEight, .footerDiv{
+.divTwo, .divThree, .divFour, .divFive, .divSix, .divSeven, .divEight{
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -186,7 +187,7 @@ background-color: rgba(252,92,101,0.75);
 .btnBullsy{
     font-family: 'Asap Condensed', sans-serif;;
     padding: 10px 25px;
-    font-size: 22px;
+    font-size: 18px;
     text-transform: capitalize;
     background-color: rgba(0,0,0,0.75);
     color: white;
@@ -201,3 +202,50 @@ background-color: rgba(252,92,101,0.75);
     color: white;
     box-shadow: 0px 3px 7px black;
 }
+
+.divFour .columnDesign{
+    border-left: 3px solid #363636;
+}
+
+.divEight{
+    background-color: #ecf0f1;
+}
+
+.divEight span a{
+    color: #fc5c65;
+}
+
+.footerDiv{
+    min-height: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgba(0,0,0,0.85);
+}
+
+.footerDiv h4{
+    color: white;
+}
+
+.footerNav a{
+    display: block;
+    color: white;
+    font-family: 'Ropa Sans', sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.footerNav a:hover{
+    color: #fc5c65;
+    border-right: 2px solid #fc5c65;
+}
+
+.footerSocial a{
+    color: white;
+    margin-right: 15px;
+}
+
+.footerSocial a:hover{
+    color: #fc5c65;
+}
+
+
