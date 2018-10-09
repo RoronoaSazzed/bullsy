@@ -207,12 +207,47 @@ background-color: rgba(252,92,101,0.75);
     border-left: 3px solid #363636;
 }
 
+.divFive{
+    min-height: 0px;
+}
+
+.hoverImageDiv{
+    position: relative;
+}
+
+.hoverImageDiv img{
+    display: block;
+    height: 200px;
+    width: 280px;
+}
+
+.hoverImageDiv:hover .hoverProductButton{
+    width: 280px;
+}
+
+.hoverProductButton{
+    background-color: rgba(252,92,101,0.7);
+    height: 200px;
+    width: 0px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+
+.divSeven{
+    min-height: 0px;
+}
+
 .divEight{
     background-color: #ecf0f1;
 }
 
 .divEight span a{
-    color: #fc5c65;
+    color: #eb3b5a;
 }
 
 .footerDiv{
