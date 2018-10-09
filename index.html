@@ -28,9 +28,8 @@
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
         <!-- font integration -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,10000" rel="stylesheet">
-        <link href="http://allfont.net/allfont.css?fonts=montserrat-light" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Asap+Condensed|Fjalla+One|Ropa+Sans|Yanone+Kaffeesatz|Yrsa" rel="stylesheet">
+
 
         <!-- linking css file with html -->
         <link href="css/style.css" type="text/css" rel="stylesheet">
@@ -45,69 +44,70 @@
         <div class="container-fluid divOne">
             <div class="container">
                 <div class="col-md-6 col-sm-6 col-xs-12">
-                    <h4><span><i class="fa fa-phone"></i></span> +565 975 658</h4>
-                    <h4><span><i class="fa fa-envelope"></i></span> info@creativecats.com</h4>
+                    <p class="topNavAddress"><span><i class="fa fa-phone"></i></span> +565 975 658</p>
+                    <p class="topNavAddress"><span><i class="fa fa-envelope"></i></span> info@creativecats.com</p>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <a href="#" class="">my account</a>
-                    <a href="#" class="">login</a>
-                    <a href="#" class="">checkout</a>
-                    <a href="#" class="">sign up</a>
+                <div class="col-md-6 col-sm-6 col-xs-12" id="topNavDiv">
+                    <a href="#" class="btn btnTopNav">my account</a>
+                    <a href="#" class="btn btnTopNav">login</a>
+                    <a href="#" class="btn btnTopNav">checkout</a>
+                    <a href="#" class="btn btnTopNav">sign up</a>
+                    <a href="#" class="btn btnTopNav"><i class="fa fa fa-cart-plus"></i> $459.99</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="primaryNav" class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#">
+                        <img id="logo" src="images/bullsy-logo.png" alt=""/>
+                    </a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">home</a>
+                        </li>
+                        <li>
+                            <a href="#">apparel</a>
+                        </li>
+                        <li>
+                            <a href="#">fashion</a>
+                        </li>
+                        <li>
+                            <a href="#">contact us</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid divTwo">
-            <div class="navbar navbar-default" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a href="#">bullsy logo</a>
-                        <a href="#"><i class="fa fa-cart-plus"></i> $459.99</a>
-                    </div>
-                    <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="#">home</a>
-                            </li>
-                            <li>
-                                <a href="#">apparel</a>
-                            </li>
-                            <li>
-                                <a href="#">fashion</a>
-                            </li>
-                            <li>
-                                <a href="#">contact us</a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="container">
+                <div class="col-md-6 col-sm-6 col-xs-12 columnDesign">
+                    <a href="#">snickers</a>
+                    <a href="#">shoe</a>
+                    <a href="#">sandle</a>
+                    <a href="#">bullsy trisai</a>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <img class="img-responsive right-block" src="images/bullsyTitlePic.png" alt=""/>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid divThree">
-            <div class="container">
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <img class="img-responsive" src="images/slider_transparent.png" alt=""/>
-                </div>
-            </div>
+        <div class="container-fluid text-center center-block divThree">
+            <h3>take a tour of our background, our organization, our products & prospects</h3>
+            <a href="#" class="btn btnBullsy">view products</a>
         </div>
-        
-        <div class="container-fluid">
-            <h4>take a tour of our background, our organization, our products & prospects</h4>
-            <a href="#">view products</a>
-        
+
         <div class="container-fluid divFour">
             <div class="container">
                 <div class="col-md-4 col-sm-4 col-xs-12">
@@ -193,14 +193,14 @@
                     <p>Lorem Sit Amet, Coct Adipiscing Elit, Ip As Consectuni. Lor Ipsum Dolor Sit Amet, Consec Adi Pis Elit, Sed Diam Nonumm Nibh Euised Tincidunt.</p>
                     <a href="#">read more</a>
                 </div>
-                
+
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <img class="img-responsive" src="images/b2.png" alt=""/>
                     <h3>extra rugged flip-flops will arrive soon</h3>
                     <p>Lorem Ipsum Dolor Sit Amet, Ip As Consectuni. Lor Ipsum Dolor Sit Amet, Consec Adi Pis Elit, Sed Diam Nonumm Nibh Euised Tincidunt.</p>
                     <a href="#">read more</a>
                 </div>
-                
+
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <img class="img-responsive" src="images/b3.png" alt=""/>
                     <h3>extra rugged flip-flops will arrive soon</h3>
@@ -209,14 +209,14 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="container-fluid divEight">
             <div class="container">
                 <h2>bullsy - a rugged store for rugged people</h2>
                 <h4>- read more about our store regulations & policy <span>here.</span> -</h4>
             </div>
         </div>
-        
+
         <div class="container-fluid footerDiv">
             <div class="container">
                 <div class="col-md-4 col-sm-4 col-xs-6">
@@ -273,44 +273,44 @@
 
 
 
-                <!-- body part end -->
+        <!-- body part end -->
 
 
 
-                <!-- ::::: java script integration ::::: -->
-                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-                <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <!-- ::::: java script integration ::::: -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
-                <!-- bootstrap & html5 boilerplate integration for js start -->       
-                <script>window.jQuery || document.write('<script src="js/jquery-1.12.4.min.js"><\/script>')</script>
-                <script src="js/jquery-1.12.0.min.js"></script>
-                <script src="js/bootstrap.min.js"></script>
-                <script src="js/plugins.js"></script>
-                <script src="js/main.js"></script>
-                <script type="text/javascript">
+        <!-- bootstrap & html5 boilerplate integration for js start -->       
+        <script>window.jQuery || document.write('<script src="js/jquery-1.12.4.min.js"><\/script>')</script>
+        <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript">
 
-                </script>
-
-
-                <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-                <script>
-                    (function (b, o, i, l, e, r) {
-                        b.GoogleAnalyticsObject = l;
-                        b[l] || (b[l] =
-                                function () {
-                                    (b[l].q = b[l].q || []).push(arguments)
-                                });
-                        b[l].l = +new Date;
-                        e = o.createElement(i);
-                        r = o.getElementsByTagName(i)[0];
-                        e.src = 'https://www.google-analytics.com/analytics.js';
-                        r.parentNode.insertBefore(e, r)
-                    }(window, document, 'script', 'ga'));
-                    ga('create', 'UA-XXXXX-X', 'auto');
-                    ga('send', 'pageview');
-                </script>
+        </script>
 
 
-                </body>
-                </html>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function (b, o, i, l, e, r) {
+                b.GoogleAnalyticsObject = l;
+                b[l] || (b[l] =
+                        function () {
+                            (b[l].q = b[l].q || []).push(arguments)
+                        });
+                b[l].l = +new Date;
+                e = o.createElement(i);
+                r = o.getElementsByTagName(i)[0];
+                e.src = 'https://www.google-analytics.com/analytics.js';
+                r.parentNode.insertBefore(e, r)
+            }(window, document, 'script', 'ga'));
+            ga('create', 'UA-XXXXX-X', 'auto');
+            ga('send', 'pageview');
+        </script>
+
+
+    </body>
+</html>

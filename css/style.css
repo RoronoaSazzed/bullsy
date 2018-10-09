@@ -2,6 +2,11 @@
 @media (max-width: 767px) {}
 @media (min-width: 768px) {}
 @media (min-width: 1200px) {}
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Ropa Sans', sans-serif; header
+font-family: 'Yrsa', serif; paragraph
+font-family: 'Asap Condensed', sans-serif; menu
 */
 
 h1,
@@ -10,6 +15,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Ropa Sans', sans-serif;
     line-height: 1.5;
     text-transform: capitalize;
 }
@@ -51,9 +57,147 @@ h6 {
 }
 
 p {
+    font-family: 'Asap Condensed', sans-serif;
     line-height: 2;
     font-size: 16px;
     color: #747474;
     text-transform: capitalize;
 }
 
+
+.divTwo, .divThree, .divFour, .divFive, .divSix, .divSeven, .divEight, .footerDiv{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.divOne{
+    min-height: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.topNavAddress{
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.topNavAddress:hover{
+    color: #fc5c65;
+}
+
+#topNavDiv{
+    text-align: right;
+}
+
+#logo{
+    margin-left: 15px;
+}
+
+.btnTopNav{
+    font-family: 'Yrsa', serif;
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+}
+
+.btnTopNav:hover,
+.btnTopNav:focus{
+    color: #eb3b5a;
+}
+
+.navbar-default{
+    background-color: rgba(0,0,0,0.95);
+    border-radius: 0px;
+    min-height: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    border-bottom-color: transparent;
+}
+
+.navbar-default .navbar-nav li a{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 22px;
+    color: white;
+    text-shadow: none;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-right: 15px;
+    transition: all 300ms;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus{
+    color: white;
+    background-color: #eb3b5a;
+}
+
+.columnDesign{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.divTwo{
+    background-image: url(../images/s2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 480px;
+}
+
+.left-block{
+    display: block;
+    margin-right: auto;
+}
+
+.right-block{
+    display: block;
+    margin-left: auto;
+}
+
+
+
+.divTwo a{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 6px 12px;
+    transition: all 200ms;
+    text-transform: capitalize;
+}
+
+.divTwo a:hover{
+/*    background-color: rgba(0,0,0,0.75);*/
+background-color: rgba(252,92,101,0.75);
+    color: white;
+}
+
+.divThree{
+    min-height: 0px;
+    background-color: #ecf0f1;
+    display: grid;
+    place-items: center;
+}
+
+.btnBullsy{
+    font-family: 'Asap Condensed', sans-serif;;
+    padding: 10px 25px;
+    font-size: 22px;
+    text-transform: capitalize;
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+    border-radius: 0px;
+    box-shadow: 0px 2px 4px black;
+    transition: all 300ms;
+}
+
+.btnBullsy:hover,
+.btnBullsy:focus{
+    background-color: #fc5c65;
+    color: white;
+    box-shadow: 0px 3px 7px black;
+}
