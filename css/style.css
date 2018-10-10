@@ -138,6 +138,8 @@ p {
     padding-right: 15px;
     padding-left: 15px;
     margin-bottom: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .divTwo{
@@ -172,10 +174,11 @@ p {
 }
 
 .divTwo a:hover{
-/*    background-color: rgba(0,0,0,0.75);*/
-background-color: rgba(252,92,101,0.75);
+    background-color: rgba(252,92,101,0.75);
     color: white;
 }
+
+
 
 .divThree{
     min-height: 0px;
@@ -209,6 +212,22 @@ background-color: rgba(252,92,101,0.75);
 
 .divFive{
     min-height: 0px;
+    background-image: url(../images/bgThree.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.divFive h2,
+.divFive h3,
+.divFive h4,
+.divFive p,
+.divSeven h2,
+.divSeven h3,
+.divSeven h4,
+.divSeven p{
+    color: white;
 }
 
 .hoverImageDiv{
@@ -238,8 +257,16 @@ background-color: rgba(252,92,101,0.75);
     transition: all 300ms ease;
 }
 
-.divSeven{
+.divSix{
     min-height: 0px;
+}
+
+.divSeven{
+    background-image: url(../images/bgTwo.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .divEight{
